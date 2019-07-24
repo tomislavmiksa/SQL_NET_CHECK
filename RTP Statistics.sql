@@ -1,0 +1,13 @@
+SELECT TOP 1000 [MsgId]
+      ,[SessionId]
+      ,[TestId]
+      ,[MsgTime]
+      ,[PosId]
+      ,[NetworkId]
+      ,[DLRTPPacketsTotal]
+      ,[DLRTPPacketsLost]
+      ,[ULRTPPacketsTotal]
+      ,[ULRTPPacketsLost]
+      ,[Duration]
+  FROM [Burda_Data_2015].[dbo].[MsgRTPStatistics]
+  
